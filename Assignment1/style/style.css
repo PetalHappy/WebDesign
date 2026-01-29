@@ -1,18 +1,56 @@
 h1 {
-  padding: 35px;
+  padding: 25px;
   text-align: center;
   background-color: cadetblue;
+  max-width: 60%;
+  margin: 0 auto;
+  font-size: 95;
+  font-family: Bodoni MT;
 }
 
-h2, h3 {
+h2 {
+  padding: 25px;
+  text-align: center;
+  background-color: cadetblue;
+  max-width: 60%;
+  margin: 0 auto;
+  font-size: 80;
+  font-family: Magical Night;
+
+}
+
+h3 {
   text-align:center;
+  font-size: 45;
+  font-family: Bodoni MT;
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 35px;
+}
+
+h4 
+{
+  text-align:center;
+  font-family: Bodoni MT;
+  max-width: 40%;
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 30;
+  background-color: 87cbcd;
+
+
 }
 
 body {
   background-color: lightcyan;
+  margin: 0 auto;
 }
 
 p {
-  max-width: 60%; /* paragraph never gets wider than 60% of the screen */
+  max-width: 40%; /* paragraph never gets wider than 50% of the screen */
   margin: 0 auto; /* centers it horizontally */
+  text-align:center;
+  padding: 30px;
+  font-family: Bookman Old Style;
+
 }
