@@ -11,7 +11,7 @@ h1 {
   padding: 20px;
   text-align: center;
   background-color: 5f9ea0;
-  max-width: 60%;
+
   margin: 0 auto;
   font-size: 55;
   font-family: Bodoni MT;
@@ -21,7 +21,7 @@ h2 {
   padding: 20px;
   text-align: center;
   background-color: 5f9ea0;
-  max-width: 60%;
+
   margin: 0 auto;
   font-size: 45;
   font-family: Magical Night;
@@ -31,7 +31,7 @@ h3 {
   text-align: center;
   font-size: 35;
   font-family: Bodoni MT;
-  max-width: 60%;
+
   margin: 0 auto;
   padding: 20px;
 }
@@ -40,7 +40,7 @@ h4
 {
   text-align: center;
   font-family: Bodoni MT;
-  max-width: 60%;
+
   margin: 0 auto;
   padding: 5px;
   font-size: 25;
@@ -104,7 +104,7 @@ li {
 }
 
 p {
-  max-width: 40%; /* paragraph never gets wider than 50% of the screen */
+  max-width: 50%; /* paragraph never gets wider than 50% of the screen */
   margin: 0 auto; /* centers it horizontally */
   text-align:center;
   padding: 30px;
