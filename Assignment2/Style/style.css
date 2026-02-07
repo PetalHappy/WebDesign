@@ -104,7 +104,7 @@ li {
 }
 
 p {
-  max-width: 50%; /* paragraph never gets wider than 50% of the screen */
+  
   margin: 0 auto; /* centers it horizontally */
   text-align:center;
   padding: 30px;
