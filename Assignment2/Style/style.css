@@ -104,7 +104,7 @@ li {
 }
 
 p {
-  
+  max-width: 60%;
   margin: 0 auto; /* centers it horizontally */
   text-align:center;
   padding: 30px;
