@@ -1,0 +1,113 @@
+
+header{
+border: 3px solid black;
+padding: 30px;
+text-align: center;
+background-color: 5f9ea0;
+font-size: 35;
+}
+
+h1 {
+  padding: 20px;
+  text-align: center;
+  background-color: 5f9ea0;
+  max-width: 60%;
+  margin: 0 auto;
+  font-size: 55;
+  font-family: Bodoni MT;
+}
+
+h2 {
+  padding: 20px;
+  text-align: center;
+  background-color: 5f9ea0;
+  max-width: 60%;
+  margin: 0 auto;
+  font-size: 45;
+  font-family: Magical Night;
+}
+
+h3 {
+  text-align: center;
+  font-size: 35;
+  font-family: Bodoni MT;
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h4 
+{
+  text-align: center;
+  font-family: Bodoni MT;
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 25;
+  background-color: 87cbcd;
+}
+
+body {
+  background-color: f5fffa;
+  margin: 0 auto;
+}
+
+nav {
+    font-family: Georgia;
+    padding: 10px;
+    background-color: 003153;
+    color: f8f8ff;
+    font-size: 20;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    color: f8f8ff;
+    }
+a:link {
+    color: f0fff0;
+}  
+a:visited {
+    color: fff5ee;
+}  
+a:hover {
+    color: f0ffff;
+}
+a:active {
+    color: f0f8ff;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+div {
+  
+  margin: 0 auto;
+  text-align: center;
+ }
+
+footer {
+    background-color: 003153;
+    color: f8f8ff;
+}
+
+li {
+    list-style-type: none;
+    color: 002147;
+    display: inline-block;
+    font-family: Georgia, serif;
+}
+
+p {
+  max-width: 40%; /* paragraph never gets wider than 50% of the screen */
+  margin: 0 auto; /* centers it horizontally */
+  text-align:center;
+  padding: 30px;
+  font-family: Bookman Old Style;
+
+}
