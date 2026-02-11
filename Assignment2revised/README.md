@@ -1,0 +1,1 @@
+I added an additional image to give some space between the bottom of the last text and the footer. I made the header boxes narrower and centered on the screen. I added padding to both the tops and bottoms of the images spreading things out so the page doesn't feel to crowded. I played with the text of the paragraphs but I like the centering better than a left alignment. 
