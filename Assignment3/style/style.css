@@ -80,7 +80,7 @@ nav {
    justify-content: space-evenly;
    gap: 40px;
     top: 0;
-    
+    position: sticky;
        
 }
 
