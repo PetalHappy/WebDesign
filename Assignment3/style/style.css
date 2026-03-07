@@ -7,32 +7,51 @@
   font-variation-settings: "width" 100;
 }
 
+nav ul{
+    
+    background-color: #00827f;
+    position: fixed;
+    font-family: Georgia;
+    font-size: 20px;
+    list-style: none;
+    margin: 0;
+    letter-spacing: 0.5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 10px;
+    
+    }
+
 header{
 
 padding: 30px;
 text-align: center;
-background-color: 00827f;
-font-size: 35;
+background-color: #00827f;
+font-size: 35px;
 max-width: 70%;
 margin-left:auto;
 margin-right:auto;
+
 }
 
 h1 {
-  padding: 20px;
+  padding: 50px;
   text-align: center;
-  background-color: 00827f;
+  background-color: #00827f;
   margin: 0 auto;
-  font-size: 55;
+  font-size: 55px;
   font-family: Bodoni MT;
+ 
 }
 
 h2 {
-  padding: 20px;
+  padding: 5px;
   text-align: center;
-  background-color: 00827f;
+  background-color: #00827f;
   margin: 0 auto;
-  font-size: 45;
+  font-size: 45px;
   font-family: Magical Night;
   letter-spacing: 1px;
 }
@@ -40,23 +59,22 @@ h2 {
 
 h3 {
   text-align: center;
-  color:f5f5f5 ;
-  font-size: 35;
+  color:#f5f5f5 ;
+  font-size: 35px;
   font-family: Bodoni MT;
   margin: 0 auto;
   padding: 20px;
-
 }
 
 h4 
 {
   text-align: center;
   font-family: Bodoni MT;
-  color:f5f5f5;
+  color:#f5f5f5;
   margin: 0 auto;
   padding: 5px;
   font-size: 30;
-  background-color: 00827f;
+  background-color: #00827f;
   max-width: 70%;
   margin-left:auto;
   margin-right:auto;
@@ -64,40 +82,29 @@ h4
 }
 
 body {
-  background-color: f5fffa;
+  background-color: #f5fffa;
   margin: 0 auto;
   font-family: 'Merriweather', serif;
 }
 
-nav {
-    font-family: Georgia;
-    letter-spacing: 0.5px;
-    padding: 10px;
-    background-color: 00827f;
-    color: 003153;
-    font-size: 25;
-    display: flex;
-   justify-content: space-evenly;
-   gap: 40px;
-    top: 0;
-    position: sticky;
-       
-}
+    
+
+
 
 a {
-    color: f8f8ff;
+    color: #f8f8ff;
     }
 a:link {
-    color: f0fff0;
+    color: #f0fff0;
 }  
 a:visited {
-    color: fff5ee;
+    color: #fff5ee;
 }  
 a:hover {
-    color: f0ffff;
+    color: #f0ffff;
 }
 a:active {
-    color: f0f8ff;
+    color: #f0f8ff;
 }
 
 img {
@@ -134,8 +141,8 @@ img {
 }
 
 footer {
-    background-color: 00827f;
-    color: f8f8ff;
+    background-color: #00827f;
+    color: #f8f8ff;
     text-align: right;
     font-size: 20px;
     padding-top: 10px;
@@ -144,7 +151,7 @@ footer {
 
 li {
     list-style-type: none;
-    color: 002147;
+    color: #002147;
     display: inline-block;
     font-family: Georgia, serif;
 }
@@ -196,7 +203,7 @@ select{
 }
 button {
   margin-top: 20px;
-  background-color: 00827f;
+  background-color: #00827f;
   color: white;
   padding: 10px 20px;
   font-size: 1rem;
@@ -275,4 +282,5 @@ blockquote {
  cite {
   display:block;
   text-align:center;
+  padding-bottom: 30px;
  } 
