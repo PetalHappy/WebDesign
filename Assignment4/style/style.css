@@ -5,6 +5,11 @@
     gap: 20px; /*adds space between items */
 
 }
+.blog-text{
+    display: flex; /*another flexbox. We can nest them!*/
+    flex-direction: column; /*stacks each text element vertically*/
+    gap: 10px; /*adds consistent space between elements*/
+}
 .date{
 
 }
