@@ -1,4 +1,8 @@
 .blog-preview{
+    display: flex; /*activates Flexbox*/
+    flex-direction: row; /*aligns items in a row */
+    align-items: center; /*vertically centers items within the row */
+    gap: 20px; /*adds space between items */
 
 }
 .date{
@@ -11,5 +15,5 @@
 
 }
 .read-more{
-    
+
 }
