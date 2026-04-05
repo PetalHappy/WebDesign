@@ -1,0 +1,81 @@
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    margin: auto; 
+    
+}
+.item{
+    
+    background-color: #873260;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
+    /*item styles here */
+}
+.item img{   
+    width: 80%;
+    height: 80%;
+    display: block;
+    border-radius: 8px;
+}
+.item p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #873260;
+    padding-top: 20px;
+}
+
+
+
+
+/*The main footer container */
+
+.footer {
+    display:flex; /* Places all footer sections (icons + lists) side by side in a row */
+    justify-content: space-between; /* Adds equal space between each section horizontally */
+    align-items: flex-start; /* Aligns all sections to the top of the footer */
+    background-color: #b48395; /* Sets the footer's background color */
+    padding: 30px 100px; /* Adds space inside the footer; 30px top/bottom, 100px left/right */
+    font-family: Arial, Helvetica, sans-serif; /* Sets the font for the entire footer */
+    margin-top: 80px;
+}
+
+.footer ul {
+    list-style: none; /*Removes the default bullets from list items */
+    padding: 0; /* Removes default padding inside the <ul> */
+    margin: 0; /* Removes default margin outside the <ul> */
+}
+
+.footer li {
+    margin-bottom: 6px; /* Adds a little space between each list item */
+    font-size: 14px; /*Makes the text slightly smaller for a neat footer look */
+}
+
+footer {
+
+    padding-top: 100px;
+    color: #6c3082;
+}
+
+.social-icons img {
+    width: 22px; /*Sets consistent icon size */
+    margin-right: 10px; /* Adds space between the icons */
+    vertical-align: middle; /* Keeps icons visually aligned with any text nearby */
+}
+
