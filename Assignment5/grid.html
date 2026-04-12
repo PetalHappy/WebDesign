@@ -2,34 +2,148 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Grid Layout</title>
+    <title>Garden Shenanigans - Positivity</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
 </head>
 
-<div class="nav">
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="grid.html">Positivity Grid</a></li>
-        <li><a href="blog-post.html">Blog</a></li>
-        <li><a href="flexbox.html">Morning Coffee</a></li>
-    
-    </ul>
-</nav>
+
+
+<nav class="navbar navbar-expand-lg sticky-top bg-dark" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="nav.html">🌼</a>
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 align-items-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog-post.html">Blog</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="grid.html">Positivity</a></li>
+            <li><a class="dropdown-item" href="flexbox.html">Morning Coffee</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="blog-post.html">Garden Shenanigans Blog</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+      
+    </div>
 </div>
+</nav>
+
+
 
 
 <body>
-
+<div class="page-wrapper">
 
     <div class="main-header">
     <h1> Positivity</h1> </div>
+
+<div class="featured-section">
+
+    <div class="right-column">
+   
+    <div class="hero">
+    <img src="images/hero.png" alt="Hero Mountain">
+    </div>
+
+    <div class="card-section">
+        <div class="card">
+        <img src="images/Butterfly_Blue.jpg" alt="Blue Butterfly">
+        <h3>Garden Visitors</h3>
+        <p>Who comes to your garden?</p>
+        </div>
+
+        <div class="card">
+        <img src="images/Butterfly_Brown.jpg" alt="Brown Butterfly">
+        <h3>Pollinators</h3>
+        <p>Attract more to your garden.</p>
+        </div>
+    </div> 
+
+
+
+<div class="blog-preview">
+      
+    <img src="images/yellow_zinnia.png" alt="Yellow Zinnia">
+    <div class="blog-text">
+            
+        <h2 class="post-title"> Early Spring</h2>
+        <p class="post-preview"> Start seeds early.</p>
+        <a href="blog-post.html" class="read-more"> Read More</a>
+    </div>
+        
+
+    <img src="images/Black_dahlia.png" alt="Black Dahlia">
+    <div class="blog-text">
+            
+        <h2 class="post-title">Mid Spring</h2>
+        <p class="post-preview">  Plant tubers and bulbs.</p>
+        <a href="blog-post.html" class="read-more"> Read More</a>
+    </div>
+    
+
+    <img src="images/red_lime_zinnia.png" alt="Red Lime Zinnia">
+    <div class="blog-text">
+          
+        <h2 class="post-title">Summer</h2>
+        <p class="post-preview">  Water and cut flowers.</p>
+        <a href="blog-post.html" class="read-more"> Read More</a>
+    </div>
+    
+
+    <img src="images/hibiscus_trio.png" alt="Hibiscus Trio">
+    <div class="blog-text">
+           
+        <h2 class="post-title">Mid Summer</h2>
+        <p class="post-preview">  Enjoy the blooms.</p>
+        <a href="blog-post.html" class="read-more"> Read More</a>
+    </div>
+  
+    
+    <img src="images/Orange_Dahlia.png" alt="Orange Dahlia">
+    <div class="blog-text">
+         
+        <h2 class="post-title">Mid Summer</h2>
+        <p class="post-preview">  Blooms are in full swing.</p>
+        <a href="blog-post.html" class="read-more"> Read More</a>
+    </div>
+   
+    
+    <img src="images/purple_zinnia.png" alt="Purple Zinnia">
+    <div class="blog-text">
+          
+        <h2 class="post-title">Late Summer</h2>
+        <p class="post-preview">  Blooms until the first freeze.</p>
+        <a href="blog-post.html" class="read-more"> Read More</a>
+    </div>
+
+</div>
+</div>
+    
+
+
+
+</div>
+
+
+
 
 <div class="gallery">
     <div class="item">
         <img src="images/clock.png" alt="Blue Clock">
     </div>
-
     
     <div class="item">
         <p>I love when the sun is shining in the morning.</p>
@@ -46,12 +160,10 @@
     <div class="item">
         <img src="images/planner.png" alt="Blue Planner">
     </div>
-    <div class="item">
-        <p>Let's have a good day.</p>
-    </div>
+    
     </div>
 
-    <footer class="footer">
+<footer class="footer">
     <div class="social-icons">
         <img src="images/icon-X.png" alt="X logo">
         <img src="images/icon-Insta.png" alt="Instagram logo">
@@ -84,7 +196,12 @@
 
 
 <footer>
-    <p1>&copy; 2026 Amanda Hall. All rights reserved.</p1> <!--Adds a copyright statement. &copy creates a copyright symbol.-->
+    <p>&copy; <span id="year"></span> Amanda Hall</p>
+            <script>
+                document.getElementById("year").textContent = new Date().getFullYear();
+            </script>
 </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

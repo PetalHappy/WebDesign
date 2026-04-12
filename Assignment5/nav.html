@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A personal website designed to showcase work, ideas, and personality.">
+        <title>Garden Shenanigans</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    </head>
+    <body>
+
+
+
+       <nav class="navbar navbar-expand-lg sticky-top bg-dark" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="nav.html">🌼</a>
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 align-items-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog-post.html">Blog</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="grid.html">Positivity</a></li>
+            <li><a class="dropdown-item" href="flexbox.html">Morning Coffee</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="blog-post.html">Garden Shenanigans Blog</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+        <header>
+            <h1>Home</h1>
+        </header>
+
+        <main>
+       <div class="gallery">
+    <div class="item">
+        <img src="images/clock.png" alt="Blue Clock">
+    </div>
+    
+    <div class="item">
+        <p>I love when the sun is shining in the morning.</p>
+    </div>
+
+    <div class="item">
+        <img src="images/vase.png" alt="Blue Vase">
+    </div>
+
+    <div class="item">
+        <p>Spring days are the best!</p> 
+    </div>
+
+    <div class="item">
+        <img src="images/planner.png" alt="Blue Planner">
+    </div>
+    
+    </div>
+        </main>
+
+
+        <footer>
+            <!--Footer content goes here-->
+            <p>&copy; <span id="year"></span> Amanda Hall</p>
+            <script>
+                document.getElementById("year").textContent = new Date().getFullYear();
+            </script>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
