@@ -115,7 +115,11 @@ h1{
     border-radius: 2px;
     max-width: 300px;
     text-align: center;
-    border-color: whitesmoke;
+    
+}
+.card img{
+    max-width:200px;
+    align: center;
 }
 
 
