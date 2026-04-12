@@ -13,7 +13,7 @@ body{
 
 .blog-preview{
     display: flex; /*activates Flexbox*/
-    flex-direction: column; /*aligns items in a row */
+    flex-direction: row; /*aligns items in a row */
     align-items: center; /*vertically centers items within the row */
     gap: 20px; /*adds space between items */
     max-width: 80%; /*controls total width of the content block*/
@@ -21,7 +21,7 @@ body{
     padding: 20px 40px; /*adds subtle inner space from edges around content*/
 }
 .blog-preview img{
-    width: 35%; /*image takes up 35% of the total width of .blog-preview*/
+    width: 25%; /*image takes up 35% of the total width of .blog-preview*/
     height: auto; /*keeps proportions correct*/
     border-radius: 8px; /* optional*/
 }
@@ -49,7 +49,7 @@ body{
 
 .post-title{
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     line-height: 1.3;
     margin: 0;
@@ -70,61 +70,56 @@ body{
     margin-top: 10px; 
 }
 
-.right-column { 
-    grid-column: 2;
-    grid-row: 1/3;
-    display: flex;
-    flex-direction:  column;
-    gap: 20px;
-}
 
 .hero {
-   grid-column: 2;
-   grid-row: 1;
-   max-height: 400px;
+   max-height: 600px;
+  
    overflow: hidden;
+  
 }
 
 .hero img {
     width: 100%;
     height: auto;
     display: block;
+
 }
 
 .card-section {
-    grid-column: 2 / 3;
-    grid-row: 2;
     display: flex;
+    flex-direction: column;
+    
     gap: 10px;
 }
 
 .card{
     display: flex;
     flex-direction: column;
-    flex: 1;
-    gap: 10px;
-    padding: 40px;
-    max-width: 300px;
+       gap: 10px;
+    padding: 20px;
+    max-width: 350px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     background-color: #d8b2d1;
     width: 100%;
     border-radius: 8px;
-    margin-bottom: 20px;
+   
 }
 
 .card img{
-    width: 100%;
-    max-height: 200px ;
-
+    width: 300px;
+    max-height: 175px ;
     border-radius: 8px;
+  
+}
+.card-sectionflex{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
 }
 
 .featured-section .blog-preview {
-    display: flex;
-    flex-direction: column;
-    grid-template-columns: 3;
-
-
     max-width:100% !important;
     margin: 0px 0 !important;
     padding: 10px 0 !important;
