@@ -167,6 +167,38 @@ body{
 }
 
 
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    padding-top: 30px;
+ }
+
+ .grid {
+ background-color: #d8b2d1;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+
+ .grid img{
+    width: 80%;
+    height: 80%;
+    display: block;
+    border-radius: 8px;
+ }
+
+
+
 /*Start of Gallery section*/
 
 .gallery{
@@ -179,7 +211,7 @@ body{
 
 .item{
     background-color: #d8b2d1;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     border-radius: 8px;
     aspect-ratio: 1/1;
     display: flex;
@@ -195,7 +227,7 @@ body{
     border-radius: 8px;
 }
 .item p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: center;
     display: flex;
@@ -204,16 +236,22 @@ body{
 
 .main-header{
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 45px;
     color: #6c3082;
     background-color: #e6e8fa;
     padding: 15px;
     text-align: center;
+}
+
+h2{font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color: #6c3082;
+
 }
 
 .carousel-item img{
@@ -281,11 +319,19 @@ a:focus, button:focus, input:focus {
     outline-offset: 2px;
 }
 
-.home-image img{
-    display: block;
-    width: 300px;
-    height: auto;
-    margin: auto;
+form {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6c3082;
+}
+
+button {
+    background-color: #d8b2d1;
+    color:#6c3082; 
+    border-radius: 6px;
+    padding: 8px;
+    border-style: hidden;
+  
 }
 
 
