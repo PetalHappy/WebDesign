@@ -273,7 +273,7 @@ h2{font-family: Arial, Helvetica, sans-serif;
     transition: transform 0.5s ease;
 }
 .navbar-brand:hover {
-    tranform: scale(1.15);
+    transform: scale(1.15);
 }
 
 /*Popup is hidden at first*/
@@ -293,7 +293,7 @@ h2{font-family: Arial, Helvetica, sans-serif;
 #popup.open {
     opacity: 1;
     pointer-events: auto;
-    tranform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
 }
 
 /* Parallax Banner */
@@ -302,8 +302,9 @@ h2{font-family: Arial, Helvetica, sans-serif;
     height: 500px;
     background-size: cover;
     background-position: bottom;
-    background-attachemnt: fixed; /*parallax*/
+    background-attachment: fixed; /*parallax*/
     position: relative;
+    background
 }
 
 .parallax-banner-overlay {
@@ -316,7 +317,7 @@ h2{font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     bottom: 40px;
     left: 43%;
-    tranform: translateX(-50%);
+    transform: translateX(-50%);
     text-align: center;
     color: #faf7e8;
     text-shadow: 0 0 10px #000;
@@ -326,7 +327,7 @@ h2{font-family: Arial, Helvetica, sans-serif;
 @keyframes pulse{
 0%{transform: scale(1);}/* start at regular size */
 50%{transform: scale(1.03);}/* grow slightly in middle */
-100% {tranform: scale(1);}/* return to normal size */
+100% {transform: scale(1);}/* return to normal size */
 }
 
 #openPopup {
