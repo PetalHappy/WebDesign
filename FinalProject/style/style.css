@@ -376,22 +376,22 @@ footer {
 
 
 a {
-    color: #6c3082;
+    color: #dfbada;
     text-decoration: none;
     }
 a:link {
-    color: #8d4e85;
+    color: #8a209a;
     text-decoration: underline;
 }  
 a:visited {
-    color: #663399 ;
+    color: #8a209a ;
 }  
 a:hover {
-    color: #8d4e85;
+    color: #8a209a;
     transform: scale(1.15);
 }
 a:active {
-    color: #8d4e85;
+    color: #dfbada;
     transform: scale(.98);
 }
 a:focus, button:focus, input:focus {
