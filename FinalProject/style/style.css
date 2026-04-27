@@ -271,9 +271,10 @@ h2{font-family: Arial, Helvetica, sans-serif;
 
 .navbar-brand {
     transition: transform 0.5s ease;
+    
 }
 .navbar-brand:hover {
-    transform: scale(1.15);
+    transform: scale(2);
 }
 
 /*Popup is hidden at first*/
@@ -376,33 +377,33 @@ footer {
 
 
 a {
-    color: #dfbada;
+    color: #e6e8fa;
     text-decoration: none;
     }
 a:link {
-    color: #8a209a;
+    color: #e6e8fa;
     text-decoration: underline;
 }  
 a:visited {
-    color: #8a209a ;
+    color: #e6e8fa ;
 }  
 a:hover {
     color: #8a209a;
     transform: scale(1.15);
 }
 a:active {
-    color: #dfbada;
+    color: #e6e8fa;
     transform: scale(.98);
 }
 a:focus, button:focus, input:focus {
-    outline:2px solid #6c3082;
+    outline:2px solid #e6e8fa;
     outline-offset: 2px;
 }
 
 form {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: #6c3082;
+    color: #8a209a;
 }
 
 
