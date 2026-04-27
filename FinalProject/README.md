@@ -8,3 +8,8 @@ I like the flexbox at this point. I think I know more about it and how it works 
 Fine tuning my site was actually fun. I found some text that was in different font and colors, so I made changes to make them match. I went through and updated my blog as if I would in real life. Good thing I did because the first entery sent everything out of alignment. I figured out my issue and made changes. I think it looks pretty good. I also added a Subscribe option on my home page. That was a good refresher in adding the button but also styling it. 
 I chose a CSS Grid for my component. It looks very similar to the one we made before but I changed up the lines to make it look more like my example. 
 I'm having fun in this class and I enjoy learning about all the different styles and layouts to be used. I get a bit confused when there is so much detail. But I take a step back, and dive in one line at a time.
+
+4/26/2026
+I learned so much while building my site. Pretty much everything. I find it fasinating how to use the flexbox and grid systems. It's going to take me a bit long to really get it down but I am trying and I plan on going back to the playground sites to play around. 
+There were a few times I thought I had my color chosen but once they were together I had to make changes because they either didn't look quite right or I found it hard to read. The same with font sizes. I found some of the fonts were too small for me to read. But sometimes I think it's my computer. 
+I plan to use all of these skills to build my own websites. I have my own business and I own a few web addresses but I have not set up my own site yet. I have them redirect to other third party accounts (etsy, avon) and such. So now I can make my own site and be creative.
