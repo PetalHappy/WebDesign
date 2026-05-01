@@ -13,3 +13,56 @@ I'm having fun in this class and I enjoy learning about all the different styles
 I learned so much while building my site. Pretty much everything. I find it fasinating how to use the flexbox and grid systems. It's going to take me a bit long to really get it down but I am trying and I plan on going back to the playground sites to play around. 
 There were a few times I thought I had my color chosen but once they were together I had to make changes because they either didn't look quite right or I found it hard to read. The same with font sizes. I found some of the fonts were too small for me to read. But sometimes I think it's my computer. 
 I plan to use all of these skills to build my own websites. I have my own business and I own a few web addresses but I have not set up my own site yet. I have them redirect to other third party accounts (etsy, avon) and such. So now I can make my own site and be creative.
+
+# Site Plan
+
+## Home Page
+
+**Goal:** Welcome folks to the site and guide users to the content
+
+### Structure
+- **Navigation:** Logo (left), primary links center and right
+- **Image Carousel**
+- **Blog Preview**
+- **Newsletter / mailing list
+- **Photo grid** - sharing beautiful images
+- **Popup** Call to Action- mailing list sign up on the left
+- **Footer** - Social icons (right), auto-updating copyright bottom left
+
+## Blog - Garden Shenanigans
+- **Navigation:** 
+- **Header**
+- **Blog enteries** newest at the top
+- **Footer**
+
+## Positivity
+
+- **Navigation**
+- **Header**
+- **Large bright image (left) cards (right) with detailed info
+- **Blog previews** for the season with pictures and Read more links to the blog page
+- **Photo Gallery** - pretty images to keep it interesting
+- **footer**
+
+## Morning Coffee
+
+- **Navigation**
+- **Photo Carousel**
+- **Header**
+- **Blog Previews** These could also be updated to gardening tips in the future.
+- **Photo Cards** with facts regarding the flowers pictured
+- **footer**
+
+## About Me
+
+- **Navigation**
+- **Header**
+- **Hero** - background image and page scrolls over the top.
+- **Photo Grid** - Fun saying and details
+- **Footer**
+
+I had never built a site before so everything we went over was new to me. I have enjoyed learning about web design and build this site. I have already started working on another site for a domain I own. The templates we learned to build will be useful when creating other sites. It is easy to copy and paste and update the colors, fonts and decorative detail. We have been given a great starting point. I also like know a good file sytem to keep files organized. I've already started using the information I have learned in this class to name and organize my home business files. With my site I am most proud of the vibe I can create using the elements I use in my everyday business. These elements show who I am and I can share my personality with all the bright images, fun fonts and colors. I have found a color chart with a short cut, it is easier to pick colors and find the codes in seconds. 
+
+
+
+
