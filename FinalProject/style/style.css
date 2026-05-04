@@ -36,6 +36,8 @@ body{
     
 }
 
+
+
 .blog-list {
     display: flex;
     flex-direction:column;
@@ -206,6 +208,17 @@ body{
     height: 80%;
     display: block;
     border-radius: 8px;
+ }
+
+ .about {
+    font-size: large;
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 25px;
+    padding-top: 25px;
+
+
  }
 
 
